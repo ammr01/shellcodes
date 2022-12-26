@@ -1,7 +1,7 @@
 
 /*
-Description : shell code made by Amr AlAsmer ,that can be injected into executed program.
-strong when injected into setuid binaries to gain root access 
+Description : shell code made by Amr AlAsmer ,that can be injected into executed program 
+,strong when injected into setuid binaries to gain root access 
 
 Code job : push "/bin/sh" string into stack and call execv syscall (11)
 
