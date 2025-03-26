@@ -1,5 +1,7 @@
 
 /*
+Arch: i386,i686  "x86 32 bit OS" 
+
 Description : shell code made by Amr AlAsmer ,that can be injected into executed program 
 ,strong when injected into setuid binaries to gain root access 
 
